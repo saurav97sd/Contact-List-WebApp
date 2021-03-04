@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin: 25px 0px;
+    color: grey;
+    font-size: 3rem;
+}
+
+/* style to contact list */
+#container ul{
+    margin: 20px auto;
+    padding: 0;
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+#container .contact{
+    width: 55%;
+    /* text-align: center; */
+    list-style: none;
+    display: flex;
+    background-color: rgb(80, 177, 145);
+    margin-bottom: 3px;
+    font-size: 1.2rem;
+    color: white;
+    
+}
+.contact #details{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+}
+.contact #details:hover{
+    background-color: rgb(122, 150, 147);
+}
+.contact #delete-button{
+    width: 10%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#delete-button a{
+    color: rgb(150, 54, 54);
+}
+#delete-button:hover{
+    background-color: white;
+}
+
+
+
+/* style to form */
+form{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    margin: auto;
+    width: 50%;
+    flex-wrap: wrap;
+    height: 8rem;
+}
+
+form input{
+    width: 45%;
+    margin-right: 10px;
+    height: 1.5rem;
+    border-style: none;
+    border-bottom: 2px solid black;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: grey;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+}
